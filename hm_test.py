@@ -1,6 +1,6 @@
 def name_function(func, *args):
-    name = func.__name__.title().replace('_', ' ')
-    print(name, *args)
+    print('Название функции: ' + func.__name__.title().replace('_', ' '))
+    print('Значение аргументов: ', *args)
 
 
 def open_browser(browser_name):
